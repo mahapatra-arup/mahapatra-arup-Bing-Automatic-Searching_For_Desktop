@@ -4,14 +4,14 @@ chrome.runtime.connect({ name: "popup" });
 
 let andreaCorrigaWebsite = 'https://bing.com'
 
-// Phones for mobile searches
+// Phones for mobile searches Mozilla/5.0 (Linux; Android 8.1.0; Pixel Build/OPM4.171019.021.D1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36 EdgA/42.0.0.2057
 
 var phonesArray = [{
     title: "Google Nexus 4",
     width: 0,
     height: 0,
     deviceScaleFactor: 2,
-    userAgent: "Mozilla/5.0 (BB10; Touch) AppleWebKit/537.1+ (KHTML, like Gecko) Version/10.0.0.1337 Mobile Safari/537.1+ EdgA/42.0.0.2057",
+    userAgent: "Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; Nexus S Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 EdgA/42.0.0.2057",
     touch: true,
     mobile: true
 }]
